@@ -528,3 +528,14 @@ footer .row2 {
 		text-align: center;
 	}
 }
+
+@media (max-width: 340px) {
+	.header-btns button {
+		display: block;
+		width: 80px;
+	}
+
+	.header-btns button:first-child {
+		margin-bottom: 8px;
+	}
+}
